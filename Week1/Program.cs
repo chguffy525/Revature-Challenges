@@ -17,6 +17,7 @@ namespace Week1
 
 			  string text = Console.ReadLine();
 			  string output = text;
+			  text = text.Replace(" ", string.Empty);
         text = text.ToLower();
         Console.WriteLine("Your input is " + text);	
         if (ReverseString(text) == text)
