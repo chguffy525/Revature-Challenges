@@ -26,7 +26,7 @@ namespace Week1
         }	
         else 
         {
-          Console.WriteLine(text + "is not a palindrome!");
+          Console.WriteLine(text + " is not a palindrome!");
           return x; 
       }
       }
